@@ -11,7 +11,7 @@ export const useStyles = () => {
 
 export const StylesProvider = ({children}: any) => {
 	const [ styleData, setStyleData ] = useState<any[]>([]);
-	const [ styleName, setStyleName ] = useState("parcels");
+	const [ styleName, setStyleName ] = useState("york");
 
 	useEffect(() => {
 		const fetchData = async () => {
